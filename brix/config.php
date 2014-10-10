@@ -4,10 +4,10 @@ $logo = 'images/abc.png';
 $company = 'Website name';
 
 function connect(){
-	$bd_host = 'localhost';
-	$bd_user = 'root';
-	$bd_password = '';
-	$bd_name = '_bd_andreidesign';
+	$bd_host = 'mybrixdb.cexyqq6xpyhc.us-west-2.rds.amazonaws.com';
+	$bd_user = 'mybrixuser';
+	$bd_password = '!@#$%W8BQbAMChMB!$#@!';
+	$bd_name = 'mybrixdb';
 	$con = mysql_connect($bd_host, $bd_user, $bd_password);
 	mysql_select_db($bd_name, $con);
 	return $con;
